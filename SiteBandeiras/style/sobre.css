@@ -1,0 +1,18 @@
+
+
+nav#navegacao a#proximo {
+    color: grey;
+}
+nav#navegacao a#proximo:link {
+    color: grey;
+}
+nav#navegacao a#proximo:visited {
+    color: grey;
+}
+nav#navegacao a#proximo:hover {
+    color: grey;
+    background-color: white;
+    cursor: context-menu;
+}
+
+

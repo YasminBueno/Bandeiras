@@ -1,0 +1,44 @@
+
+
+section#bandeiras {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+article.bandeira {
+    border: none;
+    box-shadow: none;
+    background-color: white;
+    max-width: 300px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+article.bandeira img{
+    max-width: 300px;
+}
+article.bandeira p {
+    text-indent: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+/*Barra de navegação*/
+nav#navegacao a#voltar {
+    color: grey;
+}
+nav#navegacao a#voltar:link {
+    color: grey;
+}
+nav#navegacao a#voltar:visited {
+    color: grey;
+}
+nav#navegacao a#voltar:hover {
+    color: grey;
+    background-color: white;
+    cursor: context-menu;
+}

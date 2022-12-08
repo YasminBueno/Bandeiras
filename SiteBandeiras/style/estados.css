@@ -1,0 +1,18 @@
+
+
+section a {
+    text-decoration: none;
+    font-weight: bold;
+}
+section a:link {
+    color: var(--cor1);
+}
+section a:visited {
+    color: var(--cor1);   
+}
+section a:hover {
+    color: var(--cor4)
+}
+section a#select {
+    color: var(--cor1);
+}

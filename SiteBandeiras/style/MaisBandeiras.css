@@ -1,0 +1,52 @@
+
+
+main {
+    min-height: 100vh;
+}
+main section#s1 {
+    min-height: 100vh;
+}
+main section#s1 article {
+    max-width: 70%;
+}
+
+
+label {
+    display: block;
+    padding: 10px;
+}
+input {
+    border: 1px solid rgba(0, 0, 0, 0.483);
+    padding: 4px;
+    border-radius: 5px;
+}
+input:focus {
+    box-shadow: 1px 1px 1px;
+    border: 1px solid black;
+    outline: 0;
+}
+input#submit {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-color: var(--cor1);
+    background-color: var(--cor4);
+    color: white;
+}
+input#submit:hover {
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+    color:var(--cor1);
+}
+select {
+    padding: 2px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.483);
+}
+select:focus {
+    box-shadow: 1px 1px 1px;
+    border: 1px solid black;
+    outline: 0;
+}
